@@ -14,22 +14,8 @@
         });
     };
 
-    const consoleLog = () => {
-        console.log("Cześć, skrypt działa. Zablokowane jest wysyłanie formularza :)")
-    }
-
-    const onFormSubmit = (event) => {
-        event.preventDefault();
-        
-        consoleLog();
-      };
-
     const init = () => {
         validationName();
-        
-        const form = document.querySelector(".js-form");
-
-        form.addEventListener("submit", onFormSubmit);
     };
 
     init();

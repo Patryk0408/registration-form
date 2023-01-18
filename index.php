@@ -35,11 +35,11 @@
                 </div>
 
                 <span class="form__name">Email</span><input class="form__input" type="email" placeholder="Email" pattern="[a-z0-9._+-]+@[a-z0-9.-].+[a-z]{2,}$">
-                <span class="form__name">Hasło</span><input class="form__input--last" type="password" placeholder="Hasło" pattern="[0-9a-zA-Z!#$%&()*+,-./:;<=>?@'[\]^_`{|}~]{7,}">
+                <span class="form__name">Hasło</span><input class="form__input--last" type="password" placeholder="Hasło" pattern="[0-9a-zA-Z!#$%&()*+,-./:;<=>?@[\]^_`{|}~]{7,}">
 
                 <div class="form__dignity--last">
-                    <span class="form__information">Hasło powinno mieć min.7 znaków</span>
-                    <button class="form__button--password">Nie pamiętasz hasła?</button>
+                    <span class="form__information">Hasło powinno mieć min. 7 znaków</span>
+                    <a href="#" class="form__button--password">Nie pamiętasz hasła?</a>
                 </div>
 
                 <label class="form__name"><input type="checkbox" required> Akceptuje warunki</label>

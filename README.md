@@ -2,8 +2,8 @@
 
 ## Description app:
 1. To form write your personal data.
-2. Click button <kbd>Akceptuję warunki</kbd> after after reading the rules.
-3. Click button <kbd>Zarejestruj się</kbd> and and enjoy your newly created account.
+2. Click button <kbd>Akceptuję warunki</kbd> after reading the rules.
+3. Click button <kbd>Zarejestruj się</kbd> and enjoy your newly created account.
 
 ![image](image/app_screenshot.JPG)
 
@@ -11,7 +11,7 @@
 - HTML, CSS
 - Javascript
 - PHP
-- MySqli Data Base 
+- MySqli Data Base (XAMPP)
 - BEM
 
 #### Project created as part of testing the task.

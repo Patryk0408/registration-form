@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rejestracja</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script defer src="js/script.js"></script>
 </head>
+
 <body>
-    
+    <main class="main">
+        <h1 class="main__title">Rejestracja</h1>
+
+        <section>
+            <form class="form">
+                <div class="form__dignity">
+                    <div class="form__label"><span class="form__name">Imię</span><input class="form__input"
+                            placeholder="Imię"></div>
+                    <div class="form__label"><span class="form__name">Nazwisko</span> <input class="form__input"
+                            placeholder="Nazwisko"></div>
+                </div>
+                <span class="form__name">Email</span> <input class="form__input" type="email" placeholder="Email">
+                <span class="form__name">Hasło</span> <input class="form__input--last" type="password"
+                    placeholder="Hasło">
+                <div class="form__dignity--last">
+                    <span class="form__information">Hasło powinno mieć min.5 znaków</span>
+                    <button class="form__button--password">Nie pamiętasz hasła?</button>
+                </div>
+                <label class="form__name"><input type="checkbox"> Akceptuje warunki</label>
+                <button class="form__button">Zarejestruj się</button>
+            </form>
+        </section>
+    </main>
 </body>
+
 </html>

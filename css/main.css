@@ -1,0 +1,17 @@
+.main {
+    background-color: #dddddd;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.main__title {
+    text-align: center;
+    padding: 30px;
+}
+
+@media(max-width: 840px) {
+    .main {
+        margin: 20px;
+    }
+}

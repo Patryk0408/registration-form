@@ -13,5 +13,6 @@
 - PHP
 - MySqli Data Base (XAMPP)
 - BEM
+- Media queries
 
 #### Project created as part of testing the task.
